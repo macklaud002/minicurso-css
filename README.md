@@ -1,4 +1,4 @@
-# Minicurso CSS e HTMl
+# Minicurso CSS e HTML
 *Material de apoio do Minicurso de CSS ministrado no dia 30/06/2021 para a ETEC de Ibitinga-SP.*
 
 ### Sobre o Projeto
