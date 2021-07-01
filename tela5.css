@@ -1,0 +1,46 @@
+* {
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.quadrado {
+  background-color: #C4C4C4;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.quadradinho {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.quadradinho:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+
+.quadradinho:nth-child(2) {
+  right: 0;
+  top: 0;
+}
+
+.quadradinho:nth-child(3) {
+  right: 0;
+  bottom: 0;
+}
+
+.quadradinho:nth-child(4) {
+  left: 0;
+  bottom: 0;  
+}
