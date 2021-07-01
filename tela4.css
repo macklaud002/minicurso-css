@@ -1,0 +1,21 @@
+* {
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  padding: 0 10px;
+}
+
+.col {
+  background-color: #C4C4C4;
+  flex: 1;
+  height: 13vh;
+  margin-left: 5px;
+}
